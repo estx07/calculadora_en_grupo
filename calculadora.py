@@ -23,7 +23,7 @@ cerrar = False           # Variable Booleana para salir del bucle del menú, set
 
 while cerrar != True :   # Mientras que la variable sea distinta de True se ejecutará el menu infinitas veces.
     print("\n-----------------------------")
-    print("Bienvenido a Calculadora V1.0")  # Código del Menú desde Aquí.
+    print("Bienvenido a Calculadora V0.1")  # Código del Menú desde Aquí.
     print("-----------------------------")
     
     print("Seleccione operación realizar:\n")
