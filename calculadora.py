@@ -44,9 +44,21 @@ while cerrar != True :   # Mientras que la variable sea distinta de True se ejec
     elif seleccion == 2:
         pass #codigo de la resta aqui con sus mensajes, o bien hacemos una función y la llamamos.
     elif seleccion == 3:
-        pass #codigo de la resta aqui con sus mensajes, o bien hacemos una función y la llamamos. 
+        
+        print("-- usted seleccionó, multiplicar --")     #aviso que ha elegido
+        valm1 = int(input("Ingrese primer valor para multiplicar: "))  #pido cada uno de 4 datos
+        valm2 = int(input("Ingrese segundo valor para multiplicar: "))
+        valm3 = int(input("Ingrese tercer valor para multiplicar: "))
+        valm4 = int(input("Ingrese cuarto valor para multiplicar: "))
+
+        total = valm1 * valm2 * valm3 * valm4  #Multiplico segun consigna
+
+        print("La multiplicacion total de los 4 valores es: ", total) # muestro resultado
+        
+        cerrar = True          #Al terminar la operacion dejo en True así el While lo   detecta y se cierra el programa.
+
     elif seleccion == 4:
-        pass #codigo de la resta aqui con sus mensajes, o bien hacemos una función y la llamamos. 
+        pass #codigo de la division aqui con sus mensajes, o bien hacemos una función y la llamamos. 
   
     else:
         print ("Ups, debe elegir una opción válida del menú entre las indicadas :)")
