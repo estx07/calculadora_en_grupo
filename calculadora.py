@@ -50,7 +50,6 @@ while cerrar != True :   # Mientras que la variable sea distinta de True se ejec
   
     else:
         print ("Ups, debe elegir una opción válida del menú entre las indicadas :)")
-
     
 
 print("\nSalió del programa, que tenga buen día!")
