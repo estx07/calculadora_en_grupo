@@ -23,7 +23,7 @@ cerrar = False           # Variable Booleana para salir del bucle del menú, set
 
 while cerrar != True :   # Mientras que la variable sea distinta de True se ejecutará el menu infinitas veces.
     print("\n-----------------------------")
-    print("Bienvenido a Calculadora V0.1")  # Código del Menú desde Aquí.
+    print("Bienvenido a Calculadora V0.3")  # Código del Menú desde Aquí.
     print("-----------------------------")
     
     print("Seleccione operación realizar:\n")
@@ -40,12 +40,38 @@ while cerrar != True :   # Mientras que la variable sea distinta de True se ejec
         cerrar = True   # While está esperando esta condición para terminar y muestra el menu infinitas veces.
                         # ponemos pass que no hace nada, temporalmente para que no de error el código.
     elif seleccion == 1:
-        pass #codigo de la suma aqui con sus mensajes, o bien hacemos una función y la llamamos.
+        print("\n-- Usted seleccionó, sumar. --")
+        
+        num1 = input("Introduce el primer numero: ")
+        num2 = input("Introduce el segundo numero: ")
+        num3 = input("Introduce el tercer numero: ")
+
+        num1  = int(num1)
+        num2 = int(num2)
+        num3 = int(num3)
+
+        suma = num1+num2+num3
+        print ("La suma de los tres números es:", suma)
+        
+        cerrar = True
+        
     elif seleccion == 2:
-        pass #codigo de la resta aqui con sus mensajes, o bien hacemos una función y la llamamos.
+        print("\n-- Usted seleccionó, restar. --")
+        
+        num1 = input("Introduce el primer numero: ")
+        num2 = input("Introduce el segundo numero: ")
+        
+        num1  = int(num1)
+        num2 = int(num2)
+        
+        resta = num1-num2
+        print ("La resta de los dos números es:", resta)
+        
+        cerrar = True
+        
     elif seleccion == 3:
         
-        print("\n-- Usted seleccionó, multiplicar --")     #aviso que ha elegido
+        print("\n-- Usted seleccionó, multiplicar --")                 #aviso que ha elegido
         valm1 = int(input("Ingrese primer valor para multiplicar: "))  #pido cada uno de 4 datos
         valm2 = int(input("Ingrese segundo valor para multiplicar: "))
         valm3 = int(input("Ingrese tercer valor para multiplicar: "))
@@ -55,7 +81,7 @@ while cerrar != True :   # Mientras que la variable sea distinta de True se ejec
 
         print("\nLa multiplicacion total de los 4 valores es: ", total) # muestro resultado
         
-        cerrar = True          #Al terminar la operacion dejo en True así el While lo   detecta y se cierra el programa.
+        cerrar = True          #Al terminar la operacion dejo en True así el While cierra el programa.
 
     elif seleccion == 4:
         pass #codigo de la division aqui con sus mensajes, o bien hacemos una función y la llamamos. 
