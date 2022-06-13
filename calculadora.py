@@ -44,9 +44,9 @@ while cerrar != True :   # Mientras que la variable sea distinta de True se ejec
     elif seleccion == 2:
         pass #codigo de la resta aqui con sus mensajes, o bien hacemos una función y la llamamos.
     elif seleccion == 3:
-        pass #codigo de la resta aqui con sus mensajes, o bien hacemos una función y la llamamos. 
+        pass #codigo de la multiplicacion aqui con sus mensajes, o bien hacemos una función y la llamamos. 
     elif seleccion == 4:
-        pass #codigo de la resta aqui con sus mensajes, o bien hacemos una función y la llamamos. 
+        pass #codigo de la división aqui con sus mensajes, o bien hacemos una función y la llamamos. 
   
     else:
         print ("Ups, debe elegir una opción válida del menú entre las indicadas :)")
